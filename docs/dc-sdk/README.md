@@ -259,7 +259,28 @@ global.Viewer = viewer; // 添加到全局变量
 
 - constructor(id, options)
   DC.Viewer 构造函数 - 参数 - `{String} id`: 容器 ID - `{Object} options`: 属性 - 返回值 `viewer`  
-   `json // 属性参数（可选） { "contextOptions": { "webgl": { "alpha": false, // 背景 "depth": true, "stencil": false, "antialias": true, "powerPreference": "high-performance", "premultipliedAlpha": true, "preserveDrawingBuffer": false, "failIfMajorPerformanceCaveat": false, }, "allowTextureFilterAnisotropic": true, }, "sceneMode": 3 // 1: 2.5D 2: 2D, 3: 3D } `
+  
+  ```:json
+  // 属性可选
+  {
+      "contextOptions":{
+          "webgl":{
+              "alpha":false, // 北京
+              "depth":true,
+              "stencil":false,
+              "antialias":true,
+              "powerPreference":"high-performance",
+              "premultipliedAlpha":true,
+              "preserveDrawingBuffer":false,
+              "failIfMajorPerformanceCaveat":false
+          },
+          "allowTextureFilterAnisotropic":true
+      },
+      "sceneMode":3 // 1:2.5D 2:2D 3:3D
+  }
+  ```
+  
+  
 
 ### properties
 
