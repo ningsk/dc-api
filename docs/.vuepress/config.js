@@ -37,6 +37,15 @@ module.exports = {
           },
         ],
       },
+      {
+        text: "知识体系",
+        items: [
+          {
+            text: "GIS概论",
+            link: "/knowledge/gis-base/",
+          },
+        ],
+      },
     ],
   },
 };

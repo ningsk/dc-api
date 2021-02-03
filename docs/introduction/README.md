@@ -1,14 +1,3 @@
-<!--
- * @Descripttion: 
- * @version: 
- * @Author: sueRimn
- * @Date: 2021-01-28 09:56:27
- * @LastEditors: sueRimn
- * @LastEditTime: 2021-01-28 12:02:41
--->
-
-
-
 # 教程
 ## 基础
 
@@ -39,7 +28,7 @@ WebGL 是一种Javascript API,用于在不使用插件的情况下进行任何�
 ### 三维数据 
 
 `glb/gltf`
-  
+
 GLTF代表Graphics Language Transmission Format（图形语言传输格式）。这种跨平台格式已成为Web上的3D对象标准。它由OpenGL和Vulkan背后的3D图形标准组织Khronos所定义，这使得GLTF成为3D模型的JPG格式：Web导出的通用标准。  
 
 `3dtiles`  
